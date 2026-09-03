@@ -1,7 +1,6 @@
 class Adios < Formula
   desc "CLI for deploying and managing applications on Adios"
   homepage "https://www.adios.dev"
-  version "1.0.8"
   license :cannot_represent
 
   on_macos do
