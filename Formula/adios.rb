@@ -5,21 +5,21 @@ class Adios < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/adiosdotdev/cli/releases/download/v1.0.8/adios_v1.0.8_darwin_arm64.tar.gz"
-      sha256 "feed331c7306d3e5f1f3db7b86b01a577ccd1b5296e719f21fb3414fe63b91ae"
+      url "https://github.com/adiosdotdev/cli/releases/download/v1.0.9/adios_v1.0.9_darwin_arm64.tar.gz"
+      sha256 "d81ca19b046f62830ef2e350930d6b090ab71d5272f723bd1262b5ca8b04d60d"
     else
-      url "https://github.com/adiosdotdev/cli/releases/download/v1.0.8/adios_v1.0.8_darwin_amd64.tar.gz"
-      sha256 "1be262a526185c52e3f2dd868da2e0354a754625150bce79e424d2725da6642a"
+      url "https://github.com/adiosdotdev/cli/releases/download/v1.0.9/adios_v1.0.9_darwin_amd64.tar.gz"
+      sha256 "841cb236ac965a353b6f0778c4f230dd22a7ab210f6975c71003d7792e57c46c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/adiosdotdev/cli/releases/download/v1.0.8/adios_v1.0.8_linux_arm64.tar.gz"
-      sha256 "052f38f61e8f7b88f38008ef5296bf1bfa37ab5c9c5b78bf8659685e0373c84d"
+      url "https://github.com/adiosdotdev/cli/releases/download/v1.0.9/adios_v1.0.9_linux_arm64.tar.gz"
+      sha256 "c559faef3cfc6bac6fc6058038df46112d2d45e1073dbf3cb6cdcd7022a325f1"
     else
-      url "https://github.com/adiosdotdev/cli/releases/download/v1.0.8/adios_v1.0.8_linux_amd64.tar.gz"
-      sha256 "1623ea0195449ac3fe9913d0ed6a4f4ddae293b22337c25a6118664d89fb5f18"
+      url "https://github.com/adiosdotdev/cli/releases/download/v1.0.9/adios_v1.0.9_linux_amd64.tar.gz"
+      sha256 "6048b43533cdb29ba5ee32e714868b4a4321230ac2e32bf6b3e7b7f6d2428a9c"
     end
   end
 
